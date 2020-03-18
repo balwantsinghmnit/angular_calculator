@@ -1,0 +1,45 @@
+#calci
+{
+	width: 245px;
+	height: 240px;
+	border: 1px solid darkblue;
+}
+#calci input
+{
+	text-align: right;
+	width: 243px;
+	height: 50px;
+	font-size: 20px;
+	float: left;
+	margin-left: -1px;
+	color: red;
+}
+#calci input[type=number]::-webkit-inner-spin-button,#calci input[type=number]::-webkit-outer-spin-button
+{
+	-webkit-appearance: none;	
+}
+#calci #buttons
+{
+	margin-top: 60px;
+}
+#calci #buttons button
+{
+	width: 59px;
+	height: 30px;
+	border: none;
+	float: left;
+	color: white;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top: 2px;
+	border-radius: 2px;
+}
+.red{background: red;}
+.green{background: green;}
+.brown{background: brown;}
+.darkgrey{background: darkgrey;}
+.pink{background: pink;}
+.chocolate{background: chocolate;}
+.magenta{background: magenta;}
+.cyan{background: cyan;}
+.darkblue{background: darkblue;}

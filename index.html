@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="module1">
+<head>
+	<title>Angular Calculator</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="angular.js"></script>
+</head>
+<body ng-controller="mycont">
+	<center>
+		<h1>Angular Calculator</h1>
+		<br><br>
+		<div id="calci">
+			<input type="text" name="inp" value="{{result}}"><br>
+			<div id="buttons">
+				<!--row1 -->
+				<button class="red" ng-click="cancel();">C</button>
+				<button class="chocolate" ng-click="add('/');">/</button>
+				<button class="chocolate" ng-click="add('*');">*</button>
+				<button class="red"  ng-click="delete()">dlt</button>
+				<!--row2 -->
+				<button class="green" ng-click="add('7');">7</button>
+				<button class="green" ng-click="add('8');">8</button>
+				<button class="green" ng-click="add('9');">9</button>
+				<button class="chocolate" ng-click="add('-');">-</button>
+				<!--row3 -->
+				<button class="green" ng-click="add('4');">4</button>
+				<button class="green" ng-click="add('5');">5</button>
+				<button class="green" ng-click="add('6');">6</button>
+				<button class="chocolate" ng-click="add('+');">+</button>
+				<!--row4 -->
+				<button class="green" ng-click="add('1');">1</button>
+				<button class="green" ng-click="add('2');">2</button>
+				<button class="green" ng-click="add('3');">3</button>
+				<button class="chocolate" ng-click="equal();">=</button>
+				<!--row5 -->
+				<button class="brown" ng-click="add('(');">(</button>
+				<button class="brown" ng-click="add(')');">)</button>
+				<button class="brown" ng-click="add('.');">.</button>
+				<button class="green" ng-click="add('0');">0</button>
+			</div>
+		</div>
+	</center>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
